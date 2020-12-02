@@ -1,0 +1,21 @@
+if(celular.ligado == true){
+             Console.WriteLine("Você gostaria de Desligar o celular: s/n ");   
+            }else{
+             Console.WriteLine("Você gostaria de Ligar o celular: s/n? ");  
+
+            if (celular.ligado == false){
+                Console.WriteLine("Seu celular permanece ligado");
+            }else{
+                Console.WriteLine("Seu celular permanece desligado");
+            }
+           
+          
+
+            string status = Console.ReadLine();
+            
+            Console.WriteLine("Voce gostaria de fazer uma ligação: s/n?");
+            celular.ligacao = Console.ReadLine();
+
+            Console.WriteLine("Voce gostaria de enviar uma mensagem: s/n?");
+            celular.ligacao = Console.ReadLine();
+           
