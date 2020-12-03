@@ -2,6 +2,7 @@ namespace AulaPOOCelular.cel
 {
     public class Celular
     {
+        //atributos
         public string modelo;
         public string cor;
         public string tamanho;
@@ -21,13 +22,12 @@ namespace AulaPOOCelular.cel
 
         public string FazerLigacao(){
 
-            if (ligacao == "s" && this.ligado)
-            {
-                return ("Realizando chamada...");
-            }else{
-                return ("Suspendendo chamada");
-            }
+            return "Você está realizando uma chamada";
 
+        }
+
+        public string EnviarMensagem(){
+            return "Você está enviando uma mensagem";
         }
 
         

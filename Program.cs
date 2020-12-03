@@ -26,18 +26,35 @@ namespace AulaPOOCelular
             celular.ligado = bool.Parse(Console.ReadLine());
 
             int escolha = 0;
+            
 
-            if (celular.ligado == true)
+            do
             {
                 Console.WriteLine("Menu");
-                Console.WriteLine("[1] - Fazer ligação");
-                Console.WriteLine("[2] - Enviar uma mensagem");
-                Console.WriteLine("[3] - Desligar aparelho ");
+                Console.WriteLine("-----------------------");
+                Console.WriteLine("Opção [1] - Fazer ligação");
+                Console.WriteLine("Opção [2] - Enviar uma mensagem");
+                Console.WriteLine("Opção [1] - Sair");
                 escolha = int.Parse(Console.ReadLine());
 
-            }else{
-                Console.WriteLine("Precisa ligar o celular");
-            }
+                switch (escolha)
+                {
+                    case 1:
+                        if ()
+                        {
+                            
+                        }
+                        break;
+                    default:
+                        break;
+                }
+                
+
+            } while (escolha != 0);
+
+            
+            
+            
 
            
             
